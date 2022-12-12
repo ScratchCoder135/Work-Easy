@@ -66,9 +66,7 @@ k.mongodb.del({key:process.env.CONNECTION_KEY,name:"Serverfrmme",collection:"my-
 Get the location!
 ```js
 const k=require("work-ez")
-k.geo.ip("222.22.21.1",function(callback){
-    console.log(callback)
-})
+console.log(k.geo.ip("222.22.21.1"))
 //Use the callback data to make use of the data.
 ```
 Output(Example):
