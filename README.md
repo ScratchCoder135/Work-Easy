@@ -1,4 +1,6 @@
-# Work-EZ
+# [Work-EZ](https://work-ez.netlify.app/)
+Click to view our site!
+
 ### A tool that makes you work easier.
 
 # 🔽Install
@@ -53,13 +55,13 @@ Output:
 ### Handle `updateMany()` command
 ```js
 const k=require("work-ez")
-k.mongodb.update({key:process.env.CONNECTION_KEY,name:"Serverfrmme",collection:"my-collection",queries:{username:"1234"},set:{$set:{username:"1357"}}})
+k.mongodb.update({key:process.env.CONNECTION_KEY,name:"mydb",collection:"my-collection",queries:{username:"1234"},set:{$set:{username:"1357"}}})
 //This package use .updateMany() to handle update command
 ```
 ### Handle `deleteMany()` command
 ```js
 const k=require("work-ez")
-k.mongodb.del({key:process.env.CONNECTION_KEY,name:"Serverfrmme",collection:"my-collection",queries:{username:"1234"}})
+k.mongodb.del({key:process.env.CONNECTION_KEY,name:"mydb",collection:"my-collection",queries:{username:"1234"}})
 //This package use .deleteMany() to handle del command
 ```
 ## 🗺️Geo-IP
