@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ScratchCoder135/Work-Easy.git"
   },
+  "homepage":"https://work-ez.netlify.app/",
   "author": "",
   "license": "ISC",
   "dependencies": {
